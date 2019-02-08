@@ -1,0 +1,20 @@
+{
+  "name": "chat-app-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lesson106/server/server.js",
+    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha lesson106/server/**/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\"",
+    "start-watch": "nodemon --exec \"npm start\""
+  },
+  "engines": {
+    "node": "10.10.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
