@@ -17,11 +17,13 @@ socket.on('newMessage', function (message){
 });
 
 jQuery('#message-form').on('submit', function (e){
+  let _this = this;
   e.preventDefault();
   socket.emit('createMessage', {
     from: 'User',
     text: jQuery('[name=message]').val()
   }, function (data) {
     console.log('Got it. ', data);
+    _this.reset();
   })
 });
