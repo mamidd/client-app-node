@@ -1,3 +1,7 @@
+html, body {
+  height: 100%
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -116,7 +120,7 @@ button:disabled, .chat__footer .chat__footer__button:disabled {
 .chat__main {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -131,7 +135,7 @@ button:disabled, .chat__footer .chat__footer__button:disabled {
   display: flex;
   padding: 10px;
   /*height: 60px;*/
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 .chat__footer form {
