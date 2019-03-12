@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node lesson118/server/server.js",
-    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha lesson118/server/**/*.test.js",
+    "start": "node lesson119/server/server.js",
+    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha lesson119/server/**/*.test.js",
     "test-watch": "nodemon --exec \"npm test\"",
     "start-watch": "nodemon --exec \"npm start\""
   },
