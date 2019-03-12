@@ -36,7 +36,6 @@ function scrollToBottom () {
   altrimenti se fossi anche un solo pixel prima della fine del container, non scrollerebbe
 
   RIASSUNTO
-
   in poche parole il lastMessageHeight è il numero massimo di pixel calcolati dal basso
   superati i quali non scrollo più
   */
