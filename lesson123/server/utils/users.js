@@ -11,8 +11,6 @@ class Users {
   }
 
   removeUser (id) {
-    // let removedUsers = _.remove(this.users, (user) => user.id === id);
-    // return removedUsers;
     let user = this.getUser(id);
 
     if(user){
